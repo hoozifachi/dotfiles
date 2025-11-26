@@ -16,11 +16,9 @@ tooltip {
   background: rgba(43, 48, 59, 0.5);
   border: 1px solid rgba(100, 114, 125, 0.5);
 }
+
 tooltip label {
   color: white;
-}
-
-#workspaces {
 }
 
 #workspaces button {
@@ -66,3 +64,22 @@ tooltip label {
     }
 }
 
+#network {
+  padding: 0 20px;
+  background-color: #64727D;
+  border-radius: 20px;
+  margin: 5px;
+  border-radius: 20px;
+  background: alpha(#898989, 0.4);
+  border: 1px solid #454545;
+}
+
+#pulseaudio {
+  padding: 0 20px;
+  background-color: #64727D;
+  border-radius: 20px;
+  margin: 5px;
+  border-radius: 20px;
+  background: alpha(#898989, 0.4);
+  border: 1px solid #454545;
+}
