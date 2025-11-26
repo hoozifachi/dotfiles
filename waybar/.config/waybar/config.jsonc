@@ -11,7 +11,7 @@
   "modules-right": [
     "network",
     "pulseaudio",
-    "battery",
+    "battery"
   ],
   "sway/window": {
     "max-length": 50
@@ -69,7 +69,7 @@
   "hyprland/workspaces": {
     "format": "{name}",
     "persistent-workspaces": {
-      "*": 5, // 5 workspaces by default on every monitor
+      "*": 4 // 4 workspaces by default on every monitor
     }
   }
 }
