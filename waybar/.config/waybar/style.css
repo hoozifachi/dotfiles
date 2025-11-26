@@ -53,14 +53,10 @@ tooltip label {
   border: 1px solid #454545;
 }
 
-#battery {
-    background-color: #ffffff;
-    color: black;
-}
-
-#battery.charging {
-    color: white;
-    background-color: #26A65B;
+#idle_inhibitor {
+  padding: 0 10px;
+  color: alpha(#898989, 0.8); 
+  margin: 5px;
 }
 
 @keyframes blink {
@@ -70,12 +66,3 @@ tooltip label {
     }
 }
 
-#battery.warning:not(.charging) {
-    background: #f53c3c;
-    color: white;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: steps(12);
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
