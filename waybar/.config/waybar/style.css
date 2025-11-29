@@ -28,7 +28,7 @@ tooltip label {
   color: white;
   margin: 5px;
   border-radius: 20px;
-  background: alpha(#898989, 0.4);
+  background: alpha(#898989, 0.6);
   border: 1px solid #454545;
 }
 
@@ -47,14 +47,18 @@ tooltip label {
   border-radius: 20px;
   margin: 5px;
   border-radius: 20px;
-  background: alpha(#898989, 0.4);
+  background: alpha(#898989, 0.7);
   border: 1px solid #454545;
 }
 
 #idle_inhibitor {
   padding: 0 10px;
-  color: alpha(#898989, 0.8); 
+  background-color: #64727D;
+  border-radius: 20px;
   margin: 5px;
+  border-radius: 20px;
+  background: alpha(#898989, 0.7);
+  border: 1px solid #454545;
 }
 
 @keyframes blink {
@@ -70,7 +74,7 @@ tooltip label {
   border-radius: 20px;
   margin: 5px;
   border-radius: 20px;
-  background: alpha(#898989, 0.4);
+  background: alpha(#898989, 0.7);
   border: 1px solid #454545;
 }
 
@@ -80,6 +84,6 @@ tooltip label {
   border-radius: 20px;
   margin: 5px;
   border-radius: 20px;
-  background: alpha(#898989, 0.4);
+  background: alpha(#898989, 0.7);
   border: 1px solid #454545;
 }
